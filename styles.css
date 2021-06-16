@@ -12,7 +12,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-input {
+textarea {
     width: 60%;
     display:block;
     height: 10vh;
@@ -24,12 +24,13 @@ input {
     
 }
 
-input:focus{
+textarea:focus{
     outline: none;
 }
 
-#output{
+ #output{
     border: 2px solid black;
+    height: 10vh;
     width: 60%;
     height: 10vh;
     padding: 1rem;
@@ -37,6 +38,8 @@ input:focus{
     border-radius: 1rem;
     font-size: 20px;
 }
+
+
 
 .navigation{
     background-color: var(--primary-color);
